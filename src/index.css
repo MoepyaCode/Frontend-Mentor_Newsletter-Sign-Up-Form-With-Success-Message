@@ -1,0 +1,28 @@
+/* Add Google fonts below */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components { 
+    .heading {
+        @apply font-bold text-[56px] leading-[100%]
+    }
+
+    .heading-small {
+        @apply font-bold text-[40px] leading-[100%]
+    }
+
+    .body {
+        @apply leading-[150%]
+    }
+
+    .body-bold {
+        @apply font-bold leading-[150%]
+    }
+
+    .body-small {
+        @apply font-bold text-[12px] leading-[150%]
+    }
+}
