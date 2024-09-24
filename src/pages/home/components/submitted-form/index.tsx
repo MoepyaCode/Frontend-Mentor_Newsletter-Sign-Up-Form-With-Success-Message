@@ -1,5 +1,4 @@
 import { Wrapper } from '@app-components'
-import React from 'react'
 import SubmittedFormIcon from '@app-assets/icons/icon-success.svg'
 
 type Props = {
